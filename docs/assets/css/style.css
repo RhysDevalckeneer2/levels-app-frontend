@@ -116,8 +116,8 @@ nav {
     position: fixed;
     z-index: 999;
     width: 100%;
-    backdrop-filter: blur(8px);
-    background-color: rgba(249, 250, 251, .8);
+    backdrop-filter: blur(22px);
+    background-color: rgba(249, 250, 251, .64);
 }
 
 nav:before {
@@ -203,10 +203,20 @@ form {
     transform: translate(0%, -10%);
 }
 
-#banner .container .row .col-12{
-   background-color: #10B981;
-   padding: 6%;
-   border-radius: 6px;
+#banner {
+    margin: 4rem 0;
+}
+
+#banner-info {
+    background-color: #10B981;
+    border-radius: 6px;
+}
+
+#banner-info .col-2 img {
+   width: 120%;
+   -webkit-transform: scaleX(-1);
+    transform: rotate(26deg) translate(-35%, -20%);
+    
 }
 
 
