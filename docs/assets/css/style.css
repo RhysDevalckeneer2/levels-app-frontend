@@ -117,7 +117,7 @@ nav {
     z-index: 999;
     width: 100%;
     backdrop-filter: blur(8px);
-    background-color: rgba(249, 250, 251, .65)
+    background-color: rgba(249, 250, 251, .8);
 }
 
 nav:before {
