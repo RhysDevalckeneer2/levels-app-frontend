@@ -207,18 +207,43 @@ form {
     margin: 4rem 0;
 }
 
+#banner > .container {
+    box-shadow: 0px 0px 10px 6px rgba(16,185,129,0.2);
+    border-radius: 6px;
+}
+
 #banner-info {
     background-color: #10B981;
     border-radius: 6px;
 }
 
+#banner-info .col-7 {
+    color: #F9FAFB;
+    padding: 2rem 2.25rem 3.25rem 2.25rem;
+}
+
+#banner-info .col-7 h3 {
+    font-weight: 800;
+    font-size: 2.5rem;
+} 
+
+#banner-info .col-7 p {
+    margin-bottom: 32px;
+} 
+
 #banner-info .col-2 img {
    width: 120%;
    -webkit-transform: scaleX(-1);
-    transform: rotate(26deg) translate(-35%, -20%);
-    
+    transform: rotate(26deg) translate(-35%, -10%);
 }
 
+#leaderboard-link {
+    color: #FFF;
+    padding: .85rem 1rem;
+    border: 1px solid #FFF;
+    text-decoration: none;
+    border-radius: 4px;
+}
 
 /** FAQ **/
 #faq {
