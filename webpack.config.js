@@ -4,7 +4,7 @@ const path = require('path');
 module.exports = {
     // entry: ['./src/index.js', './src/savedInput.js'],
     entry: {
-        index: './src/index.js'
+        index: './src/index.js',
     },
     output: {
         path: path.resolve(__dirname, 'docs/assets/js'),
