@@ -320,7 +320,7 @@ form input::placeholder{
 
 #pf-pic {
     border: 5px solid #F9FAFB;
-    transform: translate(0%, -50%);
+    transform: translate(0%, -35%);
     border-radius: 100%;
 }
 
