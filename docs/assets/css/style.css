@@ -131,20 +131,20 @@ nav:before {
     background-color: rgba(255, 255, 255, 1);
 }
 
-nav .container .row .col-6 ul {
+nav .container .row .col-8 ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
     color:#212529;
-    width: 50%;
+    width: 55%;
     margin-top: 1rem;
 }
 
-nav .container .row .col-6 ul li {
+nav .container .row .col-8 ul li {
     list-style-type: none;  
 }
 
-nav .container .row .col-6 ul li a{
+nav .container .row .col-8 ul li a{
     color: #212529;
     font-weight: 400;
     text-decoration: none;
