@@ -322,6 +322,7 @@ form input::placeholder{
     border: 5px solid #F9FAFB;
     transform: translate(0%, -35%);
     border-radius: 100%;
+    width: 85%;
 }
 
 
