@@ -10,33 +10,70 @@
     <script src="https://kit.fontawesome.com/e4e516d4d8.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
-    <header role="banner">
-        <nav>
-            <div class="container">
-                <div class="row">
-                    <div class="col-6" id="nav-left">
-                        <div class="logo"> <i class="fas fa-layer-group"></i> <span>The Levels App</span> <span class="version">0.0.1</span></div>
-                        <ul>
-                            <li>
-                                <a href="./">Home</a>
-                            </li>
-                            <li>
-                                <a href="./leaderboard.html">Leaderboard</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-6" id="nav-right">
-                        <a href="#" class="nav-signin">Sign in</a>
-                        <a href="./signup.html" class="nav-signup">Sign up</a>
-                    </div>
+    <nav id="nav" role="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-6" id="nav-left">
+                    <div class="logo"> <i class="fas fa-layer-group"></i> <span>The Levels App</span> <span class="version">0.0.1</span></div>
+                    <ul>
+                        <li>
+                            <a href="./">Home</a>
+                        </li>
+                        <li>
+                            <a href="./leaderboard.html">Leaderboard</a>
+                        </li>
+                        <li>
+                            <a href="./profile.html">My Profile</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6" id="nav-right">
+                    <a href="#" class="nav-signin">Sign in</a>
+                    <a href="./signup.html" class="nav-signup">Sign up</a>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
+
+    <header role="banner" class="default-banner">
+    
     </header>
 
-    <main role="main">
+    <main role="main" id="main-leaderboard">
+        <div class="container">
+            <div class="row user-leaderboard">
+                <div class="col-1">
+                    <p>#1</p>
+                </div>
+                <div class="col-1">
+                    <img src="https://source.boringavatars.com/marble/120/Maria%20Mitchell?colors=264653,2a9d8f,e9c46a,f4a261,e76f51
+                    " alt="profile picture" class="pf-leaderboard">
+                </div>
 
+                <div class="col-8">
+                    <p>Ecs0w</p>
+                </div>
+                <div class="col-2">
+                    <p>11 exp.</p>
+                </div>
+            </div>
+            <div class="row user-leaderboard">
+                <div class="col-1">
+                    <p>#2</p>
+                </div>
+                <div class="col-1">
+                    <img src="https://source.boringavatars.com/marble/120/Maria%20Mitchell?colors=264653,2a9d8f,e9c46a,f4a261,e76f51
+                    " alt="profile picture" class="pf-leaderboard">
+                </div>
+
+                <div class="col-8">
+                    <p>HollowSora.</p>
+                </div>
+                <div class="col-2">
+                    <p>11 exp.</p>
+                </div>
+            </div>
+        </div>
     </main>
 
     

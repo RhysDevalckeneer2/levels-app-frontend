@@ -7,7 +7,7 @@ class User {
     }
 
     logIn(username, password) {
-
+        console,log(`{ status: 'OK', message: 'user ${username} logged in!' }`)
     }
 
     completeQuest(quest) {
